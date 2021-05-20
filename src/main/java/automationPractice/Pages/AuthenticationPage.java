@@ -45,7 +45,5 @@ public class AuthenticationPage extends BasePage {
         loginButton.click();
     }
 
-    public String getErrorMessage() {
-        return  validationMessagesBlock.getText();
-    }
+    public String getErrorMessage() { return  validationMessagesBlock.getText(); }
 }
